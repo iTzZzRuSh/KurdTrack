@@ -1,4 +1,3 @@
-
 import {Stack} from "@chakra-ui/react"
 import {Navbar} from "./Components/Navbar";
 import GridBlurredBackdrop from "./Components/Main";

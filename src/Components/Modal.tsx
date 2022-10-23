@@ -6,9 +6,10 @@ import {
     ModalFooter,
     ModalBody,
     ModalCloseButton,
-    Button,
     useDisclosure,
     IconButton,
+    Flex,
+    Text
   } from '@chakra-ui/react'
 
   import { FiMessageCircle } from 'react-icons/fi';
@@ -22,18 +23,24 @@ import {
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Kontakt</ModalHeader>
+            <ModalHeader textAlign="center">Kontakt</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
-                    Dolores D. <br/>
-                    Nr Tel. +48 999 999 999 , <br/>
-                    E-mail mojemail@gmail.com ,
+                    <Flex justifyContent="space-evenly">
+                        <Text>Dolores Dworaczyk </Text>
+                        <Text>Pshtewan Rahim</Text>
+                    </Flex>
+                        <Flex justifyContent="space-evenly">
+                            <Text>+48 999 999 999</Text>
+                            <Text>+48 888 888 888</Text>
+                        </Flex>
+                        <Flex justifyContent="space-evenly">
+                        <Text>email@gmail.com </Text>
+                        <Text>email@yahoo.com</Text>
+                        </Flex>
             </ModalBody>
   
             <ModalFooter>
-              <Button colorScheme='green' mr={3} onClick={onClose}>
-                Zamknij
-              </Button>
             </ModalFooter>
           </ModalContent>
         </Modal>

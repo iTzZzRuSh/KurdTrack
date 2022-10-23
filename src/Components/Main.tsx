@@ -127,7 +127,6 @@ import {
             fontFamily={'Work Sans'}
             fontWeight={'bold'}
             fontSize={20}
-            letterSpacing="0.5px"
             color={'purple.400'}>
             Kurd Truck Parts
           </chakra.h3>
