@@ -9,7 +9,7 @@ import BasicUsage from "./Modal";
 export const Navbar = () => {
   return (
         <HStack w="full" mt="15px" justifyContent="space-evenly">
-            <Link href="http://localhost:3000/">
+            <Link href="https://kurdtrack.vercel.app/">
             <IconButton icon={<FiHome/>} color="orange.300" aria-label="Home"/>
             </Link>
             <BasicUsage/>
