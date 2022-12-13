@@ -27,8 +27,8 @@ import {
             <ModalCloseButton />
             <ModalBody>
                     <Flex justifyContent="space-evenly">
-                        <Text>Dolores Dworaczyk </Text>
-                        <Text>Pshtewan Rahim</Text>
+                        <Text>Dolores D. </Text>
+                        <Text>Pshtewan R.</Text>
                     </Flex>
                         <Flex justifyContent="space-evenly">
                             <Text>+48 999 999 999</Text>
